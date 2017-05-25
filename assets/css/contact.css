@@ -37,12 +37,16 @@ input[type=submit]:hover {
 }
 
 /*contact page ended*/
-
+#mainrow{
+    background-image: url("../images/backgroundimage.jpg");
+    padding:30px;
+    height: 600px;
+}
 
 #subrowcoln{
     text-align: left;
     background-color: gray;
     opacity: .8;
     padding-top: 30px;
-    height: 500px;
+    height: 420px;
     border: 1px solid lightgray;
