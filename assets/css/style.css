@@ -1,0 +1,48 @@
+#mainrow{
+	background-image: url("../images/backgroundimage.jpg");
+	padding:30px;
+}
+
+#aboutme{
+	color:#4aaaa5;
+	font-size: 30px;
+	padding-bottom: 20px;
+
+}
+
+#subrowcoln{
+	text-align: center;
+	background-color:gray;
+	opacity: .8;
+	padding-top: 30px;
+
+
+
+}
+
+#myimage{
+	float:left;
+	margin-right:10px;
+	margin-bottom: 10px;
+	border:10px inset #4aaaa5;	
+	padding-top: 0;
+}
+.col-md-9{
+	margin-left: 30px;
+	padding:20px;
+	height:400px;
+}
+
+
+
+#connect{
+	color:#4aaaa5;
+	font-size: 25px;
+	padding-bottom: 20px;
+
+}
+
+.icon{
+	 width: 30px;
+	 height: 30px;
+}

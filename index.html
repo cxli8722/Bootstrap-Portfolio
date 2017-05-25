@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/css/reset.css"> 
+ <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>about me</title>
 </head >
 
 
 <body>
-
-
 	
 
 <div class="navbar navbar-inverse navbar-static-top">
@@ -38,16 +38,21 @@
 </div>
 
  <div class="container">
-    <div class="row"  style="background-color: green">
+ <!--main row-->
+    <div id="mainrow" class="row" >
+    <!--col 1 in the main row that will take up 8 colmn-->
       <div class="col-md-8">
-        <div class="page-header" >
-          <h1>About Me</h1>
+        <div id="aboutme" class="page-header" >
+
+          <h1 >About Me</h1>
         </div>
-        <div class="row"  style="background-color: yellow">
-          <div class="col-md-3" style="background-color: blue">
-            <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
-          </div>
-          <div class="col-md-9" >
+        <!--subrow within the colmn-->
+        <div class="row" >
+        <!--subrow with only one col of 9 -->
+          <div id="subrowcoln" class="col-md-12" >
+            <div id="myimage">
+              <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
+            </div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique, nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae felis vulputate pretium. Nullam commodo, est ac auctor ornare,
               eros nisi fringilla sem, non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus, luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et neque fringilla ultricies. Aenean
@@ -56,30 +61,30 @@
           </div>
         </div>
       </div>
-
+<!--col 2 in the main row that will take up 4 colmn-->
       <div class="col-md-4">
         <div class="jumbotron"> 
-        	<p> Connect with Me </p>
+        	 <div id="connect" class="page-header" >
+              <h2 >Connect with Me</h2>
+            </div>
         	
-<div class="container">
-<img src="assets/images/github.png" alt="..." class="img-circle">
-<img src="assets/images/linkedin.png" alt="..." class="img-circle">
-<img src="assets/images/twitter.png" alt="..." class="img-circle">
-</div>
+          <div class="container">
+            <img src="assets/images/github.png" alt="..." class="img-circle">
+            <img src="assets/images/linkedin.png" alt="..." class="img-circle">
+            <img src="assets/images/twitter.png" alt="..." class="img-circle">
+          </div>
         </div>
       </div>
     </div>
   </div>
-
-
-			
 </div>
+
+
 <footer>
-<div class="container">
-	<div class="row" style="text-align: right; background-color: #380B61; color: white">
+ 
+	 <div class="row" style="text-align: right; background-color: #380B61; color: white">
 			<div class="col-lg-12"  >
-			<h1>@2016 | boot Camp  </h1>
-</div>
+			<h1>@2016 | boot Camp  </h1> 
 	</div>
 </footer>	
 
