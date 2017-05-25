@@ -1,3 +1,15 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+
+
+
 /*label for my name on the header*/
 .label{
 	font-size: 40px;
@@ -74,10 +86,15 @@ ul li {
 	display: inline-block;
 }
 
-footer{
-	background-color: black;
-	color: white;
-	height: 60px;
-	text-align: center;
-	padding: 30px;
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: black;
+  padding:30px;
+  text-align: center;
 }
+
