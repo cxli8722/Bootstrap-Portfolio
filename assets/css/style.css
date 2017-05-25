@@ -11,6 +11,8 @@
 
 }
 
+/*sytling the main row*/
+
 #mainrow{
 	background-image: url("../images/backgroundimage.jpg");
 	padding:30px;
@@ -66,6 +68,10 @@
 	font-size: 25px;
 	padding-bottom: 20px;
 
+}
+/* resposnive images to be inline*/
+ul li {
+	display: inline-block;
 }
 
 footer{
