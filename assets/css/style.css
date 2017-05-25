@@ -1,6 +1,7 @@
 #mainrow{
 	background-image: url("../images/backgroundimage.jpg");
 	padding:30px;
+	height: 500px;
 }
 
 #aboutme{
@@ -9,12 +10,14 @@
 	padding-bottom: 20px;
 
 }
-
+/* subrowcoln is text/image box under the about me*/
 #subrowcoln{
 	text-align: center;
-	background-color:gray;
+	background-color: gray;
 	opacity: .8;
 	padding-top: 30px;
+	height: 300px;
+	border: 1px solid lightgray;
 
 
 
@@ -27,13 +30,23 @@
 	border:10px inset #4aaaa5;	
 	padding-top: 0;
 }
-.col-md-9{
-	margin-left: 30px;
-	padding:20px;
-	height:400px;
+
+
+
+/* col with three icon*/
+
+.col-md-3{
+	background-color: #DCDCDC;
+	padding-right:20px;
+	padding-left:30px;
+	padding-bottom: 20px;
+	
+	border: 2px solid gray;
+
+
 }
 
-
+/* connect with me styling*/
 
 #connect{
 	color:#4aaaa5;
@@ -42,7 +55,10 @@
 
 }
 
-.icon{
-	 width: 30px;
-	 height: 30px;
+footer{
+	background-color: black;
+	color: white;
+	height: 60px;
+	text-align: center;
+	padding: 30px;
 }
