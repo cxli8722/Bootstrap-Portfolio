@@ -1,3 +1,16 @@
+/*label for my name on the header*/
+.label{
+	font-size: 40px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top:30px
+	margin-top: 30px;
+	z-index: 100;
+	float:left;
+	background-color:#5ba;
+
+}
+
 #mainrow{
 	background-image: url("../images/backgroundimage.jpg");
 	padding:30px;
