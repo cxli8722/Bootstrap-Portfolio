@@ -2,10 +2,7 @@ html {
   position: relative;
   min-height: 100%;
 }
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
+
 
 
 
@@ -28,7 +25,8 @@ body {
 #mainrow{
 	background-image: url("../images/backgroundimage.jpg");
 	padding:30px;
-	height: 500px;
+	height: 800px;
+	margin-bottom: 100px;;
 }
 
 #aboutme{
