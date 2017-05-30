@@ -1,6 +1,12 @@
+ 
+/*differetn heigh so footer will fit better*/
+ html{
+    height:950px;
+}
 
 
-/*for contact page only*/
+
+
 
 /*label for my name on the header*/
 .label{
@@ -19,7 +25,7 @@
 #mainrow{
     background-image: url("../images/backgroundimage.jpg");
     padding:30px;
-    height: 600px;
+    height: 950px;
 }
 
 #subrowcoln{
